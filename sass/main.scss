@@ -1,8 +1,10 @@
 @import "./language_selector";
-@import "./top_menu";
+@import "./top-menu";
+@import "./download-button";
+@import "./hero";
 
 body {
-  margin: 1rem;
+  margin: 0;
   padding: 0;
   font-family:
     -apple-system,
@@ -31,8 +33,6 @@ header {
 
 main {
   margin: 0 auto;
-  max-width: 1080px;
-  width: 100%;
 }
 
 img {
@@ -48,6 +48,14 @@ img[alt="logo"] {
 
 strong {
   font-weight: 600;
+}
+
+.container {
+  width: 1081px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: content-box;
 }
 
 .badge {
@@ -129,10 +137,10 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
-    background: #121212;
-    color: #bbb;
-  }
+  // body {
+  //   background: #121212;
+  //   color: #bbb;
+  // }
 
   h1,
   h2,
@@ -146,10 +154,6 @@ footer {
 
   a {
     color: lightblue;
-  }
-
-  a:visited {
-    color: #f9f;
   }
 
   :root {
@@ -236,3 +240,4 @@ footer {
 .back_to_news {
   margin-top: 1rem;
 }
+

@@ -2,6 +2,7 @@
 title: "Organic Maps: Offline Hike, Bike, Trails and Navigation"
 description: Fast detailed offline maps for travelers, tourists, drivers, hikers and cyclists created by MapsWithMe (Maps.Me) app founders.
 page_template: index.html
+hero_image: static/images/android-chrome-192x192.png
 sort_by: weight
 extra:
   menu_title: Home

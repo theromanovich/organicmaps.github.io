@@ -1,20 +1,12 @@
 {% extends 'base.html' %}
 
+{% include 'google_native_app_prompt.html' %}
+
 {% block content %}
-<div class="hero">
-    <div class="container">
-        <h1>{{ resource.title }}</h1>
-        <p class="hero__description">
-            {{ resource.description }}
-        </p>
-        <a href="/" class="hero__cta">
-            Donte
-        </a>
-    </div>
-</div>
 
+{% include 'hero.html' %}
 
-{{ resource.content | safe }}
+<!-- {{ resource.content | safe }} -->
 
 {% include 'google_native_app_prompt.html' %}
 
